@@ -1,0 +1,85 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style>
+        .inp
+        {
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+  <form name="forma">
+      <table border="0">
+          <tr>
+              <td  width="175" colspan="5"><input  type="text" name="text" id="text_b" placeholder="0" height="40"  style="text-align:right;width:210px; height:30px;"/></td>
+              
+          </tr>
+          <tr>
+              <td width="35"><input class="inp" type="button" value="MC" /></td>
+              <td width="35"><input class="inp" type="button" value="MR" /></td>
+              <td width="35"><input class="inp" type="button" value="MS" /></td>
+              <td width="35"><input class="inp" type="button" value="M+" /></td>
+              <td width="35"><input class="inp" type="button" value="M-" /></td>
+          </tr>
+          <tr>
+              <td width="35" ><input class="inp" type="button" value="<-"  onclick="ortga()"/></td>
+              <td width="35"><input class="inp" type="button" value="CE" /></td>
+              <td width="35"><input class="inp" type="button" value="C"  onclick="nov()"/></td>
+              <td width="35"><input class="inp" type="button" value="+/-" onclick="ishora()" /></td>
+              <td width="35"><input class="inp" type="button" value="sqrt" onclick="ildiz()"/></td>
+          </tr>
+          <tr>
+              <td width="35"><input class="inp" type="button" value="7" onclick="yetti()" /></td>
+              <td width="35"><input class="inp" type="button" value="8" onclick="sakkiz()" /></td>
+              <td width="35"><input class="inp" type="button" value="9" onclick="tuqqiz()" /></td>
+              <td width="35"><input class="inp" type="button" value="/" onclick="bulish()" /></td>
+              <td width="35"><input class="inp" type="button" value="%" /></td>
+          </tr>
+          <tr>
+              <td width="35"><input class="inp" type="button" value="4" onclick="turt()" /></td>
+              <td width="35"><input class="inp" type="button" value="5" onclick="besh()" /></td>
+              <td width="35"><input class="inp" type="button" value="6" onclick="olti()" /></td>
+              <td width="35"><input class="inp" type="button" value="*" onclick="kup()" /></td>
+              <td width="35"><input class="inp" type="button" value="1/x" onclick="taqsim()" /></td>
+          </tr>
+          <tr>
+              <td width="35"><input class="inp" type="button" value="1" onclick="bir()" /></td>
+              <td width="35"><input class="inp" type="button" value="2" onclick="ikki()" /></td>
+              <td width="35"><input class="inp" type="button" value="3" onclick="uch()" /></td>
+              <td width="35"><input class="inp" type="button" value="-" onclick="ayr()" /></td>
+              <td width="35" rowspan="2" ><input class="inp" type="button" value="=" style="height:50px;"  onclick="natija()"/></td>
+          </tr>
+          <tr>
+              <td width="35" colspan="2"><input class="inp" type="button" value="0" onclick="nul()" /></td>
+              <td width="35"><input class="inp" type="button" value="," onclick="butun()" /></td>
+              <td width="35"><input class="inp" type="button" value="+" onclick="qush()" /></td>
+              
+          </tr>
+
+      </table>
+      <br />
+      
+     
+
+  </form>
+
+   <p id="demo"> </p>
+    <br />
+   
+    <div>
+        <b id="suz"> </b>
+        <b id="suz1"> </b>
+        <b id="suz2"> </b>
+        <b id="suz3"> </b>
+        <b id="suz4"> </b>
+
+
+    </div>
+
+
+    <script type="text/javascript" src="element.js"></script>
+
+</body>
+</html>
